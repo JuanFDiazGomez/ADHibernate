@@ -27,7 +27,7 @@ public class Empleados  implements java.io.Serializable {
         this.empNo = empNo;
         this.departamentos = departamentos;
     }
-    public Empleados(short empNo, Departamentos departamentos, String apellido, String oficio, Short dir, Date fechaAlt, Float salario, Float comision) {
+    public Empleados(short empNo, String apellido, String oficio, Short dir, Date fechaAlt, Float salario, Float comision, Departamentos departamentos) {
        this.empNo = empNo;
        this.departamentos = departamentos;
        this.apellido = apellido;
